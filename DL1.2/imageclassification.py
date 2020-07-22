@@ -27,7 +27,7 @@ test_data = test_data.astype('float')
 #scale data
 train_data /=255.0
 test_data /=255.0
-#change the labels frominteger to one-hot encoding. to_categorical is going to do a similar thing as LabelEncoder()
+#change the labels from integer to one-hot encoding. to_categorical is going to do a similar thing as LabelEncoder()
 train_labels_one_hot = to_categorical(train_labels)
 test_labels_one_hot = to_categorical(test_labels)
 
